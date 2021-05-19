@@ -2,7 +2,7 @@
 	"name" : "com.rito.model-pivot-resetter",
 	"version": "1.0.0",
 	"displayName" :"Model Pivot Resetter",
-	"description" :"",
+	"description" :"Model Pivot Resetter",
 	"unity": "2019.4",
 	"dependencies": {},
 	"keywords": ["rito","unity","editorplugin"],
