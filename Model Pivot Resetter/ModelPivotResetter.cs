@@ -15,7 +15,7 @@ using UnityEditor;
 //  - [Window] - [Rito] - [Model Pivot Resetter] - [Show Dialog]를 체크할 경우,
 //    모델을 임포트할 때마다 기능 적용 여부를 다이얼로그를 통해 선택할 수 있다.
 
-namespace Rito.EditorPlugins
+namespace Rito.EditorUtilities
 {
     public class ModelPivotResetter : AssetPostprocessor
     {
@@ -29,7 +29,7 @@ namespace Rito.EditorPlugins
             if(!ShowDialog)
                 ResetModelPivot(go);
 
-            else if (EditorUtility.DisplayDialog("Model Pivot Resetter", $"Reset Pivot of {go.name}", "Yes", "No"))
+            else if (UnityEditor.EditorUtility.DisplayDialog("Model Pivot Resetter", $"Reset Pivot of {go.name}", "Yes", "No"))
                 ResetModelPivot(go);
         }
 

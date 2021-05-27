@@ -5,7 +5,7 @@
 	"description" :"Model Pivot Resetter",
 	"unity": "2019.4",
 	"dependencies": {},
-	"keywords": ["rito","unity","editorplugin"],
+	"keywords": ["rito","unity","utility"],
 	"author":
 	{
 		"name":"Rito",

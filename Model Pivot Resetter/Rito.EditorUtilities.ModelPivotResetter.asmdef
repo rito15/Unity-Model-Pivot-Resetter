@@ -1,5 +1,5 @@
 {
-    "name": "Rito.EditorPlugins.ModelPivotResetter",
+    "name": "Rito.EditorUtilities.ModelPivotResetter",
     "references": [],
     "includePlatforms": [
         "Editor"
